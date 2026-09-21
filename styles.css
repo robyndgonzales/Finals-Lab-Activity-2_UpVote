@@ -1,0 +1,72 @@
+/* UpVote Custom Stylesheet */
+.dividing-header {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+  color: #1e293b;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+.submission-card {
+  padding: 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  transition: all 0.25s ease-in-out;
+}
+
+.submission-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* 20+ Votes Threshold Highlight */
+.blue-border {
+  border: 2px solid #3b82f6 !important;
+  box-shadow: 0 0 16px rgba(59, 130, 246, 0.15) !important;
+}
+
+.submission-content {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.submission-thumb {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.submitted-by {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  color: #64748b;
+}
+
+.upvote-button {
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  background: #f1f5f9;
+  transition: background 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.upvote-button:hover {
+  background: #e2e8f0;
+}
+
+.vote-count {
+  font-size: 0.9rem;
+}
